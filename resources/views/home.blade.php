@@ -20,7 +20,7 @@
                     <div class="cart_text">
                         <center><h2><a href="/admin"
                         style="text-decoration: underline; 
-                        color: #000000;">Klik Untuk Menuju Halaman Admin</a></h2></center>
+                        color: #000000;">Klik Here Go To Admin Page</a></h2></center>
                     </div>
                     
                 </div>

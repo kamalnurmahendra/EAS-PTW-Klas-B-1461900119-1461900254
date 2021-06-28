@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Klambian.co</title>
+        <title>KLAMBIAN.CO</title>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
     </head>
 
@@ -11,7 +11,7 @@
             $db_host = 'localhost'; // Nama Server
             $db_user = 'root'; // User Server
             $db_pass = ''; // Password Server
-            $db_name = 'db_bajuku'; // Nama Database
+            $db_name = 'db_klambian'; // Nama Database
             
             $link = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
             if (!$link) {
@@ -20,9 +20,11 @@
             ?>
         <div class="container">
             <header>
+                <center>
                 <div class="logo">
-                    <a href="/" style="text-decoration: none; color: #ffffff;">bajuku.</a>
+                    <a href="/" style="text-decoration: none; color: #ffffff;">KLAMBIAN.CO</a>
                 </div>
+                </center>
                 <div class="cart">
                     <img src="images/cart-36-64.png" alt="cart"
                     width="20">
@@ -40,25 +42,19 @@
             <main>
                 <div class="promo">
                     Special<br>
-                    Discount 40% Off <br>
+                    Opening Store <br>
+                    Discount 35% Off <br>
                     <?php
-                    $q = $link->query("select * from barang where nama_barang
-                    ='Lawless - Iron Eagle'");  
+                    $q = $link->query("select * from barang where nama_barang ='Lawless - Iron Eagle'");  
                     while ($r = $q->fetch_array()) { //mengambil data array hasil dari database dan menampung dalam variabel $r
                     echo $r['nama_barang'];
                     }
                     ?>
                                    
-                    </div>
-                <div class="image">
-                   
                 </div>
-                <div class="image2">
-                    <img src="images/lawless_logo-kop_putih.png" alt="logo"
-                    width="180">
-                </div>
+                <div class="image"></div>
                 <div class="button1">
-                    Only for 52k
+                    Join and Order
                 </div>
             
                 

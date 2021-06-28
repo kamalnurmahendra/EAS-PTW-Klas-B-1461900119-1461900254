@@ -22,7 +22,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 12.9% 90%;
+    grid-template-rows: 15% 90%;
     grid-template-areas: 
         "header     header"
         "main       main";
@@ -51,6 +51,7 @@ header{
     position: absolute;
     color: #ffffff;
     font-size: 15pt;
+    letter-spacing: 5px;
     left: 91%;
     top: 4.69%;
 }
@@ -62,9 +63,11 @@ header{
 main{
     grid-area: main;
     font-family: helveticaneue;
+    letter-spacing: 3px;
 }
 
 tr,td,th{
+    text-align: center;
     font-size: 15pt;
 }
 

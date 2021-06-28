@@ -2,12 +2,16 @@
 
 
 @font-face{
-  font-family: yellowtail;
-  src: url('/fonts/Yellowtail-Regular.ttf');
+  font-family: baksosapi;
+  src: url('/fonts/BaksoSapi.otf');
 }
 @font-face{
-  font-family: abel;
-  src: url('/fonts/Abel-Regular.ttf');
+  font-family: bebasneue;
+  src: url('/fonts/BebasNeue-Regular.otf');
+}
+@font-face{
+  font-family: helveticaneue;
+  src: url('/fonts/HelveticaNeue Medium.ttf');
 }
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -3983,10 +3987,12 @@ input[type=button].btn-block {
   justify-content: space-between;
 }
 .navbar-brand {
+
   display: inline-block;
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
   margin-right: 1rem;
+  font-family: baksosapi;
   font-size: 30pt;
   letter-spacing: 3px;
   line-height: inherit;
