@@ -1,0 +1,79 @@
+@font-face{
+    font-family: baksosapi;
+    src: url('/fonts/BaksoSapi.otf');
+}
+@font-face{
+    font-family: bebasneue;
+    src: url('/fonts/BebasNeue-Regular.otf');
+}
+@font-face{
+    font-family: helveticaneue;
+    src: url('/fonts/HelveticaNeue Medium.ttf');
+}
+
+body{
+    margin: 0;
+    height: 300vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 12.9% 90%;
+    grid-template-areas: 
+        "header     header"
+        "main       main";
+    height: 100vh;
+    margin: 0em;
+}
+
+header{
+    grid-area: header;
+    font-family: bebasneue;
+    background: #181818;
+}
+
+.logo{
+    position: center;
+    left: 3%;
+    bottom: 88%;
+    font-family: baksosapi;
+    color: #181818;
+    letter-spacing: 3px;
+    font-size: 30pt;
+    padding: 15px;
+}
+
+.logout{
+    position: absolute;
+    color: #ffffff;
+    font-size: 15pt;
+    left: 91%;
+    top: 4.69%;
+}
+
+.login:hover{
+    text-decoration: underline;
+}
+
+main{
+    grid-area: main;
+    font-family: helveticaneue;
+}
+
+tr,td,th{
+    font-size: 15pt;
+}
+
+th{
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+table{
+    border-spacing: 0px;
+}
